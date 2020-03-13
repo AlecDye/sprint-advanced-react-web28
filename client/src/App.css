@@ -59,3 +59,14 @@
   background-color: #1f2022;
   border: none;
 }
+
+.player-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-card {
+  margin: 0 1rem;
+}

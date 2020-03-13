@@ -12,7 +12,7 @@ function Header() {
   }
   return (
     <header>
-      <h1>Women's WorldCup June 2019 - July 2019</h1>
+      <h1>Women's WorldCup Searches</h1>
       <div className="dark-mode___toggle">
         <div
           onClick={toggleTheme}

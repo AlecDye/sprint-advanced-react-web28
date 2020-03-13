@@ -21,15 +21,16 @@ class PlayerList extends React.Component {
       .catch(err => console.error);
   }
   render() {
-    console.log("Rendering");
+    // console.log("Rendering");
     // 1st render is empty
     // 2nd render maps updated state to PlayerCard component
     return (
-      <>
+      <div className="player-card-wrapper">
+        <p>June 2019 - July 2019</p>
         {this.state.playerData.map((player, key) => {
           return <PlayerCard key={key} playerData={player} />;
         })}
-      </>
+      </div>
     );
   }
 }
