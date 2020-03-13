@@ -8,6 +8,7 @@ class PlayerList extends React.Component {
   state = {
     playerData: []
   };
+  // Axios call, setting response to state, updating state
   componentDidMount() {
     axios
       .get("http://localhost:5000/api/players")
@@ -21,6 +22,8 @@ class PlayerList extends React.Component {
   }
   render() {
     console.log("Rendering");
+    // 1st render is empty
+    // 2nd render maps updated state to PlayerCard component
     return (
       <>
         {this.state.playerData.map((player, key) => {
