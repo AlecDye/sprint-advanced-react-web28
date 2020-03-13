@@ -1,7 +1,7 @@
 import React from "react";
 import { render, cleanup, wait, getByTestId } from "@testing-library/react";
-import axiosMock from "axios";
-import axios from "./mocks/axois";
+// import axiosMock from "axios";
+// import axios from "./mocks/axois";
 // import "jest-dom/extend-expect";
 
 // jest.mock("./api/players");
@@ -10,7 +10,6 @@ import axios from "./mocks/axois";
 import App from "./App";
 import Header from "./components/Header";
 import PlayerList from "./components/PlayerList";
-import PlayerCard from "./components/PlayerCard";
 
 // Depreciated version of testing
 // it('renders without crashing', () => {
